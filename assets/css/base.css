@@ -5,12 +5,78 @@
     line-height: 1;
 }
 
+.grid {
+    width: 1200px;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0px -5px;
+}
+
+.col {
+    margin: 0px 5px;
+}
+
+.col-2 {
+    width: calc(16.6667% - 10px);
+}
+
+.col-10 {
+    width: calc(83.3334% - 10px);
+}
+
+.col-2-10 {
+    width: calc(20% - 10px);
+}
+
+/* .col-full {
+    width: 100%;
+} */
+
+.button {
+    height: 36px;
+    min-width: 90px;
+    line-height: 36px;
+    cursor: pointer;
+    border-radius: 2px;
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    margin: 0 4px;
+    font-size: 14px;
+    align-items: center;
+    text-decoration: none;
+}
+
+.disabled-button {
+    background-color: white;
+    color: rgba(0, 0, 0, 0.2);
+}
+
+.button.primary-button--active {
+    background-color: var(--primary-color);
+    color: white;
+}
+
+.icon-off {
+    display: none;
+}
+.golden-star {
+    color: #f8ce5b;
+}
+
 :root {
     --max-width: 1200px;
     --text-color--white: #fff;
     --primary-color: #ee4d2d;
     --primary-color--light: #fb6445;
     --text-color: rgb(30, 30, 30);
+    --hover-background-color: #fafafa;
+    --red-color: #bf2828;
 }
 
 .overlay::before {
@@ -19,9 +85,38 @@
     height: 30px;
     width: 100%;
     top: -15px;
-    z-index: 1;
-    visibility: hidden;
+    background-color: transparent;
+    /* visibility: hidden; */
     position: absolute;
+}
+
+.overlay {
+    background-color: white;
+    z-index: 99;
+    position: absolute;
+    display: none;
+}
+
+.overlay-subnav {
+    top: 140%;
+    right: 0;
+    animation: fadeInWithScale 0.1s ease-in;
+    transform-origin: 95% 0;
+    border: 1px solid #ccc;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.315);
+    border-radius: 2px;
+    /* overflow: hidden; */
+}
+
+.overlay-subnav::after {
+    z-index: -1;
+    content: '';
+    top: -30px;
+    right: 7px;
+    position: absolute;
+    border-style: solid;
+    border-width: 20px 30px;
+    border-color: transparent transparent white transparent;
 }
 
 .center-items {
@@ -34,4 +129,24 @@
     width: 100%;
     max-width: var(--max-width);
     margin: 0 auto;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes fadeInWithScale {
+    from {
+        opacity: 0;
+        transform: scale(0.7);
+    }
+    to {
+        opacity: 1;
+        transform: scale(1);
+    }
 }
