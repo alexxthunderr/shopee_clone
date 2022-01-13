@@ -253,9 +253,6 @@ li {
     margin: 0 6px;
 }
 
-.nav-item__ketnoi {
-}
-
 .user-avatar {
     height: 20px;
     width: 20px;
@@ -579,9 +576,6 @@ li {
 .sort-by-selector {
     flex-direction: column;
     position: relative;
-}
-
-.sort-by-selector:hover {
 }
 
 .current-option-container {
