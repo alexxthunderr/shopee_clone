@@ -1,10 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8" />
-        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- <title>
             Shopee Việt Nam | Mua và Bán Trên Ứng Dụng Di Động Hoặc Website
         </title>
         <link
@@ -12,607 +13,705 @@
             href="./assets/img/shopee-logo.png"
             type="image/gif"
             sizes="16x16"
-        />
+        /> -->
 
-        <link
-            rel="stylesheet"
-            href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css"
-        />
-        <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-        <link
-            href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap"
-            rel="stylesheet"
-        />
-        <link
-            rel="stylesheet"
-            href="./assets/fonts/fontawesome-pro-5.0.13/css/all.css"
-        />
-        <link rel="stylesheet" href="./assets/css/base.css" />
-        <link rel="stylesheet" href="./assets/css/main.css" />
-    </head>
-    <body>
-        <div class="main">
-            <header class="header">
-                <!-- Begin: Nav-bar -->
-                <div class="navbar container">
-                    <ul class="navbar-left sub-navbar">
-                        <li class="nav-item nav-item__separate">
-                            <a href="#">Kênh người bán</a>
-                        </li>
-                        <li class="nav-item nav-item__separate">
-                            <a href="#">Trở thành Người bán Shopee</a>
-                        </li>
-                        <li class="nav-item nav-item__separate">
-                            <a href="#">Tải ứng dụng</a>
-                            <div class="download-apps-overlay overlay">
-                                <img
-                                    src="./assets/img/qr_code.png"
-                                    alt=""
-                                    class="qr-code"
-                                />
-                                <div class="app-markets">
-                                    <a href="#">
-                                        <img
-                                            src="./assets/img/appstore.png"
-                                            alt=""
-                                            class="app-market-icon appstore"
-                                        />
-                                    </a>
-                                    <a href="#">
-                                        <img
-                                            src="./assets/img/ggplay.png"
-                                            alt=""
-                                            class="app-market-icon ggplay"
-                                        />
-                                    </a>
-                                </div>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="./assets/fonts/fontawesome-pro-5.0.13/css/all.css" />
+    <link rel="stylesheet" href="./assets/css/base.css" />
+    <link rel="stylesheet" href="./assets/css/main.css" />
+
+    <link rel="icon" href="./public/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+    <meta name="description" content="Web site created using create-react-app" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+    <link rel="apple-touch-icon" href="./public/logo-seo.png" />
+    <link rel="manifest" href="./public/manifest.json" />
+    <!--  Essential META Tags -->
+    <meta property="og:title" content="Boost Business">
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="https://d1497f43oc1snr.cloudfront.net/images/logo.png">
+    <!-- <meta property="og:url" content="http://euro-travel-example.com/index.htm"> -->
+    <meta name="twitter:card" content="summary_large_image">
+
+    <!--  Non-Essential, But Recommended -->
+    <meta property="og:description" content="Make payments using online banking or Boost wallet using the link below">
+    <meta property="og:site_name" content="Payments powered by Boost">
+    <meta name="twitter:image:alt" content="Payments powered by Boost">
+
+
+    <title>Online Payment</title>
+</head>
+
+<body>
+    <div class="main">
+        <header class="header">
+            <!-- Begin: Nav-bar -->
+            <div class="navbar container">
+                <ul class="navbar-left sub-navbar">
+                    <li class="nav-item nav-item__separate">
+                        <a href="#">Kênh người bán</a>
+                    </li>
+                    <li class="nav-item nav-item__separate">
+                        <a href="#">Trở thành Người bán Shopee</a>
+                    </li>
+                    <li class="nav-item nav-item__separate">
+                        <a href="#">Tải ứng dụng</a>
+                        <div class="download-apps-overlay overlay">
+                            <img src="./assets/img/qr_code.png" alt="" class="qr-code" />
+                            <div class="app-markets">
+                                <a href="#">
+                                    <img src="./assets/img/appstore.png" alt="" class="app-market-icon appstore" />
+                                </a>
+                                <a href="#">
+                                    <img src="./assets/img/ggplay.png" alt="" class="app-market-icon ggplay" />
+                                </a>
                             </div>
-                        </li>
-                        <li class="nav-item nav-socials">
-                            <span class="nav-item__ketnoi"> Kết nối </span>
-                            <a href="#" class="">
-                                <i class="fab fa-facebook"></i>
-                            </a>
-                            <a href="#" class="">
-                                <i class="fab fa-instagram"></i>
-                            </a>
-                        </li>
-                    </ul>
-                    <ul class="navbar-right sub-navbar">
-                        <li class="nav-item">
-                            <a href="#">
-                                <i class="far fa-bell"></i>
-                                Thông báo
-                            </a>
+                        </div>
+                    </li>
+                    <li class="nav-item nav-socials">
+                        <span class="nav-item__ketnoi"> Kết nối </span>
+                        <a href="#" class="">
+                            <i class="fab fa-facebook"></i>
+                        </a>
+                        <a href="#" class="">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                    </li>
+                </ul>
+                <ul class="navbar-right sub-navbar">
+                    <li class="nav-item">
+                        <a href="#">
+                            <i class="far fa-bell"></i>
+                            Thông báo
+                        </a>
 
-                            <div
-                                class="
+                        <div class="
                                     overlay
                                     notification-overlay
                                     overlay-subnav
-                                "
-                            >
-                                <div class="notification-overlay__header">
-                                    Thông báo mới nhận
-                                </div>
-                                <ul class="notification-overlay__main">
-                                    <li class="noti-items read">
-                                        <div class="noti-items__img">
-                                            <img
-                                                src="./assets/img/noti-img/noti1.png"
-                                                alt=""
-                                            />
-                                        </div>
-                                        <div class="noti-items__text">
-                                            <h3 class="noti-items__header">
-                                                Giáng Sinh cận kề, đón mưa
-                                                voucher 30K
-                                            </h3>
-                                            <p class="noti-items__details">
-                                                🎉 Tham gia thêm truy tìm cỗ xe
-                                                mất tích 😍 Chia kho đến 24
-                                                triệu xu ngày 22.12 💥 Mau mau
-                                                vào khám phá bạn ơi!
-                                            </p>
-                                        </div>
-                                    </li>
-                                    <li class="noti-items">
-                                        <div class="noti-items__img">
-                                            <img
-                                                src="./assets/img/noti-img/noti1.png"
-                                                alt=""
-                                            />
-                                        </div>
-                                        <div class="noti-items__text">
-                                            <h3 class="noti-items__header">
-                                                Giáng Sinh cận kề, đón mưa
-                                                voucher 30K
-                                            </h3>
-                                            <p class="noti-items__details">
-                                                🎉 Tham gia thêm truy tìm cỗ xe
-                                                mất tích 😍 Chia kho đến 24
-                                                triệu xu ngày 22.12 💥 Mau mau
-                                                vào khám phá bạn ơi!
-                                            </p>
-                                        </div>
-                                    </li>
-                                    <li class="noti-items">
-                                        <div class="noti-items__img">
-                                            <img
-                                                src="./assets/img/noti-img/noti1.png"
-                                                alt=""
-                                            />
-                                        </div>
-                                        <div class="noti-items__text">
-                                            <h3 class="noti-items__header">
-                                                Giáng Sinh cận kề, đón mưa
-                                                voucher 30K
-                                            </h3>
-                                            <p class="noti-items__details">
-                                                🎉 Tham gia thêm truy tìm cỗ xe
-                                                mất tích 😍 Chia kho đến 24
-                                                triệu xu ngày 22.12 💥 Mau mau
-                                                vào khám phá bạn ơi!
-                                            </p>
-                                        </div>
-                                    </li>
-                                </ul>
-                                <div class="notification-overlay__footer">
-                                    Xem tất cả
-                                </div>
+                                ">
+                            <div class="notification-overlay__header">
+                                Thông báo mới nhận
                             </div>
-                        </li>
-                        <li class="nav-item">
-                            <a href="#">
-                                <i class="far fa-question-circle"></i>
-                                Hỗ trợ
-                            </a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="#">
-                                <i class="fal fa-globe"></i>
-                                Tiếng Việt
-                                <i class="fal fa-chevron-down"></i>
-                            </a>
-
-                            <div
-                                class="language-overlay overlay overlay-subnav"
-                            >
-                                <ul class="language-list">
-                                    <li class="language-option">Tiếng Việt</li>
-                                    <li class="language-option">Tiếng Anh</li>
-                                </ul>
-                            </div>
-                        </li>
-                        <li class="nav-item">
-                            <a href="#">
-                                <img
-                                    src="./assets/img/ava.png"
-                                    alt=""
-                                    class="user-avatar"
-                                />
-                                <span class="user-name"
-                                    >dfoahflagshipstore</span
-                                >
-                            </a>
-                            <ul class="profile-overlay overlay overlay-subnav">
-                                <li class="profile-option">
-                                    Tài khoản của tôi
+                            <ul class="notification-overlay__main">
+                                <li class="noti-items read">
+                                    <div class="noti-items__img">
+                                        <img src="./assets/img/noti-img/noti1.png" alt="" />
+                                    </div>
+                                    <div class="noti-items__text">
+                                        <h3 class="noti-items__header">
+                                            Giáng Sinh cận kề, đón mưa
+                                            voucher 30K
+                                        </h3>
+                                        <p class="noti-items__details">
+                                            🎉 Tham gia thêm truy tìm cỗ xe
+                                            mất tích 😍 Chia kho đến 24
+                                            triệu xu ngày 22.12 💥 Mau mau
+                                            vào khám phá bạn ơi!
+                                        </p>
+                                    </div>
                                 </li>
-                                <li class="profile-option">Đơn mua</li>
-                                <li class="profile-option">Đăng xuất</li>
-                            </ul>
-                        </li>
-                    </ul>
-                </div>
-                <!-- End: Nav-bar -->
-                <div class="header-main container">
-                    <div class="header-logo">
-                        <div class="shopee-logo">
-                            <svg
-                                enable-background="new 0 0 48 48"
-                                viewBox="0 0 48 48"
-                                x="0"
-                                y="0"
-                                fill="white"
-                            >
-                                <path
-                                    d="M44.4,11.5C44.4,11.5,44.4,11.5,44.4,11.5l-9.9,0C34.3,5.1,29.7,0,24,0S13.7,5.1,13.5,11.5H3.6v0c-0.5,0-0.9,0.4-0.9,0.9c0,0,0,0,0,0.1h0l1.4,30.9c0,0.1,0,0.2,0,0.3c0,0,0,0,0,0.1l0,0.1l0,0c0.2,2.2,1.8,3.9,3.9,4l0,0h31.4c0,0,0,0,0,0c0,0,0,0,0,0h0.1l0,0c2.2-0.1,3.9-1.8,4.1-4l0,0l0,0c0,0,0,0,0-0.1c0-0.1,0-0.1,0-0.2l1.5-31h0c0,0,0,0,0,0C45.3,11.9,44.9,11.5,44.4,11.5z M24,2.8c4.1,0,7.5,3.9,7.6,8.7H16.4C16.5,6.7,19.9,2.8,24,2.8z M31.9,35.8c-0.3,2.3-1.7,4.2-3.9,5.1c-1.2,0.5-2.8,0.8-4.1,0.7c-2-0.1-3.9-0.6-5.6-1.4c-0.6-0.3-1.6-1-2.3-1.5c-0.2-0.1-0.2-0.3-0.1-0.5c0.2-0.2,0.8-1.2,0.9-1.3c0.1-0.2,0.4-0.2,0.6-0.1c0,0,0.2,0.2,0.3,0.2c1.7,1.3,3.8,2.3,6.2,2.4c3,0,5.2-1.4,5.6-3.5c0.4-2.3-1.4-4.3-4.9-5.4c-1.1-0.3-3.9-1.5-4.5-1.8c-2.5-1.4-3.6-3.3-3.4-5.6c0.2-3.2,3.2-5.6,7-5.6c1.8,0,3.5,0.4,5,1c0.6,0.2,1.6,0.8,2,1.1c0.3,0.2,0.2,0.4,0.1,0.6c-0.2,0.2-0.6,0.9-0.8,1.2c-0.1,0.2-0.3,0.2-0.5,0.1c-1.9-1.3-3.9-1.7-5.7-1.8c-2.6,0.1-4.6,1.6-4.7,3.7c0,1.9,1.4,3.3,4.5,4.3C29.9,29.6,32.3,32,31.9,35.8z"
-                                ></path>
-                            </svg>
-                        </div>
-                        <span class="separate-logo"></span>
-                        <div class="shopee-logo-text">
-                            <svg viewBox="0 0 220 44"
-                                <g
-                                    fill="#fff"
-                                    fill-rule="evenodd"
-                                    transform="translate(0 -.098)"
-                                >
-                                    <path
-                                        d="M195.78 30.899a10.49 10.49 0 0 1-6.81 2.484c-5.732 0-10.378-4.53-10.378-10.12 0-5.59 4.646-10.12 10.378-10.12 2.606 0 4.988.937 6.81 2.484.023-1.13.882-1.942 1.938-1.942 1.07 0 1.937.834 1.937 1.989v15.73c0 1.154-.868 1.98-1.937 1.98-1.07 0-1.938-.826-1.938-1.98zm-.062-7.643c0-3.588-3.024-6.497-6.755-6.497-3.73 0-6.754 2.91-6.754 6.497 0 3.588 3.024 6.498 6.754 6.498 3.73 0 6.755-2.91 6.755-6.498zM202.9 25.388V3.558c0-1.07.855-1.938 1.911-1.938s1.912.867 1.912 1.938v22.069c0 .043-.002.087-.004.13-.018 2.461.369 3.293 2.029 3.768 1.016.291 1.553 1.396 1.266 2.426-.237.854-.77 1.377-1.605 1.377h-.18c-.171 0-.347-.024-.52-.073-2.735-.783-4.904-2.78-4.81-7.867zM212.266 25.535V3.558c0-1.07.856-1.938 1.912-1.938s1.912.867 1.912 1.938V25.825c0 .082-.005.163-.015.242-.06 2.212.146 2.858 2.325 3.31 1.034.215 1.632 1.26 1.42 2.309-.186.916-.914 1.527-1.803 1.527-.127 0-.256-.013-.386-.04-2.882-.599-5.553-2.131-5.365-7.638zM97.886 24.307c.095.561.266 1.256.563 2.09 1.317 3.309 5.375 3.3 5.986 3.309 1.753.025 3.396-.331 5.011-1.223.906-.5 1.985-.412 2.556.405.572.818.395 2.028-.723 2.71-2.208 1.348-4.574 1.758-7.01 1.708-3.798-.078-7.4-1.591-9.01-5.204-.733-1.644-1.158-3.561-1.027-5.376.058-2.086.844-3.867 1.047-4.334.928-2.127 2.557-3.814 4.725-4.702 2.646-1.082 6.008-.916 8.53.43 2.936 1.566 4.571 5.136 4.41 8.384-.049.975-.799 1.803-1.817 1.803zm.412-3.333h10.906c-.86-4.592-5.845-4.37-5.845-4.37-2.52.098-4.207 1.555-5.061 4.37zM119.618 24.354c.095.561.266 1.257.563 2.09 1.318 3.31 5.376 3.3 5.986 3.31 1.753.024 3.396-.332 5.012-1.223.905-.5 1.984-.413 2.556.405.571.817.394 2.027-.723 2.71-2.209 1.347-4.574 1.758-7.011 1.707-3.797-.077-7.4-1.591-9.01-5.204-.732-1.644-1.158-3.56-1.026-5.376.058-2.085.843-3.867 1.047-4.333.928-2.127 2.557-3.815 4.725-4.702 2.645-1.083 6.007-.916 8.53.43 2.936 1.565 4.57 5.136 4.409 8.383-.049.976-.798 1.803-1.816 1.803zm.412-3.333h10.907c-.86-4.592-5.846-4.37-5.846-4.37-2.52.099-4.206 1.555-5.06 4.37zM74.109 30.871v11.367c0 2.34-3.632 2.337-3.632 0V23.806a10.064 10.064 0 0 1 0-1.329v-7.575c0-2.34 3.632-2.337 3.632 0v.51a10.537 10.537 0 0 1 6.768-2.434c5.756 0 10.422 4.55 10.422 10.164 0 5.613-4.666 10.164-10.422 10.164-2.584 0-4.947-.917-6.768-2.435zm0-7.207c.28 3.356 3.2 5.997 6.762 5.997 3.746 0 6.784-2.922 6.784-6.526 0-3.604-3.038-6.526-6.784-6.526-3.562 0-6.483 2.64-6.762 5.997zM57.09 33.306c-5.757 0-10.423-4.55-10.423-10.164s4.666-10.164 10.422-10.164 10.422 4.55 10.422 10.164c0 5.613-4.666 10.164-10.422 10.164zm-.007-3.645c3.747 0 6.784-2.922 6.784-6.526 0-3.604-3.037-6.526-6.784-6.526s-6.784 2.922-6.784 6.526c0 3.604 3.037 6.526 6.784 6.526zM28.69 15.026V2.111c0-2.337-3.631-2.34-3.631 0v29.471c0 2.337 3.631 2.341 3.631 0v-9.695c.015.364.018-.522.273-1.22.953-3.151 3.823-3.751 5.115-3.77 3.696 0 5.652 1.803 5.868 5.408V31.582c0 2.337 3.627 2.341 3.627 0v-6.126c0-1.753.106-3.676 0-4.789-.584-6.843-9.5-9.68-14.455-5.979a9.572 9.572 0 0 0-.428.338zM4.294 2.62c-2.156 1.909-3.15 5.385-2.369 8.155.678 2.4 2.66 4.27 4.803 5.323 2.222 1.09 4.676 1.673 6.564 2.505 1.32.59 2.456 1.153 3.595 2.305 1.138 1.152 1.62 2.586 1.587 3.65-.033 1.085-.441 2.182-1.023 2.869-1.487 1.755-3.889 2.414-6.106 2.303-1.572-.078-3.29-.422-4.692-1.016-1.42-.601-2.671-1.582-3.921-2.438-.807-.553-1.99-.282-2.526.631-.468.811-.098 1.92.693 2.505 2.376 1.757 4.89 3.1 7.808 3.631 2.918.532 5.463.41 8.09-.741 2.462-1.08 4.468-3.198 5.07-5.862.627-2.775-.09-5.41-1.923-7.58-2.21-2.618-5.47-3.626-8.54-4.733a24.208 24.208 0 0 1-3.295-1.423c-1.908-.973-2.883-2.363-2.75-4.528.158-2.578 2.278-3.913 4.906-4.266 2.628-.353 5.337.53 7.25 1.864 1.833 1.194 3.93-1.64 1.833-3.136C15.15-.207 8.288-.914 4.294 2.621z"
-                                    ></path>
-                                    <path
-                                        d="M171.002 3.338c-1.545 4.329-5.841 7.27-10.7 7.186-4.8-.084-8.954-3.103-10.394-7.412-.33-.983-1.407-1.519-2.408-1.197a1.865 1.865 0 0 0-1.217 2.364c1.946 5.823 7.526 9.879 13.954 9.991 6.505.114 12.277-3.84 14.365-9.69a1.866 1.866 0 0 0-1.17-2.39c-.993-.342-2.082.171-2.43 1.148z"
-                                        fill-rule="nonzero"
-                                    ></path>
-                                    <path
-                                        d="M173.191 1.8a1.98 1.98 0 0 1 1.98 1.98v27.546a1.98 1.98 0 1 1-3.96 0V3.78a1.98 1.98 0 0 1 1.98-1.98zM147.807 1.8a1.98 1.98 0 0 1 1.98 1.98v27.546a1.98 1.98 0 1 1-3.96 0V3.78a1.98 1.98 0 0 1 1.98-1.98z"
-                                    ></path>
-                                    <circle
-                                        cx="173.101"
-                                        cy="3.691"
-                                        r="2.07"
-                                    ></circle>
-                                    <circle
-                                        cx="147.897"
-                                        cy="3.691"
-                                        r="2.07"
-                                    ></circle>
-                                </g>
-                            </svg>
-                        </div>
-                    </div>
-                    <div class="header-rightside">
-                        <div class="header-search">
-                            <!-- <div class="search-bar"> -->
-                            <form action="" class="search-bar">
-                                <input
-                                    type="text"
-                                    class="search-bar__input"
-                                    placeholder="Tìm trong Shop này"
-                                />
-                                <span class="search-bar__separate"></span>
-                                <div class="search-bar__options">
-                                    <span>
-                                        Trong Shop này
-                                        <i class="fal fa-chevron-down"></i>
-                                    </span>
-                                    <div class="search-bar__options-main overlay">
-                                        <ul class="options-list">
-                                            <li class="options current-selection">
-                                                Trong Shop này
-                                                <i class="fa fa-check"></i>
-                                            </li>
-                                            <li class="options">
-                                                Trong Shopee
-                                                <i class="fa fa-check"></i>
-                                            </li>
-                                        </ul>
+                                <li class="noti-items">
+                                    <div class="noti-items__img">
+                                        <img src="./assets/img/noti-img/noti1.png" alt="" />
                                     </div>
-                                </div>
-                                <div class="search-bar__button">
-                                    <i class="fa fa-search"></i>
-                                </div>
-                            </form>
-                        </div>
-                        <a href="#" class="header-cart">
-                            <i class="fa fa-shopping-cart cart-icon"></i>
-                            <span class="current-items">12</span>
-                        </a>
-                    </div>
-                </div>
-            </header>
-            <div class="container grid">
-                <a href="#" class="row breadcumb-main">
-                    <i class="fal fa-chevron-left"></i>
-                    TRỞ LẠI TRANG CỦA SHOP                    
-                </a>
-                <div class="row app-content">
-                    <div class="main-category col col-2">
-                        <div class="store-details-category">
-                            <div class="store-details-category__ava-holder shopee-mall-label">
-                                <!-- <img src="https://cf.shopee.vn/file/62160f74aa5cffa160b2062658d2be75_tn" alt="" class="main-category__shop-ava"> -->
-                                <img src="./assets/img/chaminu.jpg" alt="" class="main-category__shop-ava">
+                                    <div class="noti-items__text">
+                                        <h3 class="noti-items__header">
+                                            Giáng Sinh cận kề, đón mưa
+                                            voucher 30K
+                                        </h3>
+                                        <p class="noti-items__details">
+                                            🎉 Tham gia thêm truy tìm cỗ xe
+                                            mất tích 😍 Chia kho đến 24
+                                            triệu xu ngày 22.12 💥 Mau mau
+                                            vào khám phá bạn ơi!
+                                        </p>
+                                    </div>
+                                </li>
+                                <li class="noti-items">
+                                    <div class="noti-items__img">
+                                        <img src="./assets/img/noti-img/noti1.png" alt="" />
+                                    </div>
+                                    <div class="noti-items__text">
+                                        <h3 class="noti-items__header">
+                                            Giáng Sinh cận kề, đón mưa
+                                            voucher 30K
+                                        </h3>
+                                        <p class="noti-items__details">
+                                            🎉 Tham gia thêm truy tìm cỗ xe
+                                            mất tích 😍 Chia kho đến 24
+                                            triệu xu ngày 22.12 💥 Mau mau
+                                            vào khám phá bạn ơi!
+                                        </p>
+                                    </div>
+                                </li>
+                            </ul>
+                            <div class="notification-overlay__footer">
+                                Xem tất cả
                             </div>
-                            <h4 class="store-details-category__name">Chà Mi Nu Na Nu Nống</h4>
-                            <p class="store-details-category__online-status">Online 41 phút trước</p>
                         </div>
-                        <div class="category-list-container ">
-                            <h3 class="category-header">DANH MỤC SHOP</h3>
-                            <ul class="main-category__products-list">
-                                <li class="main-category__items  main-category__items--active">Sản Phẩm</li>
-                                <li class="main-category__items">Macbook nâng cấp</li>
-                                <li class="main-category__items">AirPods</li>
-                                <li class="main-category__items">iPhone</li>
-                                <li class="main-category__items">Apple Watch</li>
-                                <li class="main-category__items">Macbook</li>
-                                <li class="main-category__items">Phụ kiện Apple</li>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#">
+                            <i class="far fa-question-circle"></i>
+                            Hỗ trợ
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#">
+                            <i class="fal fa-globe"></i>
+                            Tiếng Việt
+                            <i class="fal fa-chevron-down"></i>
+                        </a>
+
+                        <div class="language-overlay overlay overlay-subnav">
+                            <ul class="language-list">
+                                <li class="language-option">Tiếng Việt</li>
+                                <li class="language-option">Tiếng Anh</li>
                             </ul>
                         </div>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#">
+                            <img src="./assets/img/ava.png" alt="" class="user-avatar" />
+                            <span class="user-name">dfoahflagshipstore</span>
+                        </a>
+                        <ul class="profile-overlay overlay overlay-subnav">
+                            <li class="profile-option">
+                                Tài khoản của tôi
+                            </li>
+                            <li class="profile-option">Đơn mua</li>
+                            <li class="profile-option">Đăng xuất</li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+            <!-- End: Nav-bar -->
+            <div class="header-main container">
+                <div class="header-logo">
+                    <div class="shopee-logo">
+                        <svg enable-background="new 0 0 48 48" viewBox="0 0 48 48" x="0" y="0" fill="white">
+                            <path
+                                d="M44.4,11.5C44.4,11.5,44.4,11.5,44.4,11.5l-9.9,0C34.3,5.1,29.7,0,24,0S13.7,5.1,13.5,11.5H3.6v0c-0.5,0-0.9,0.4-0.9,0.9c0,0,0,0,0,0.1h0l1.4,30.9c0,0.1,0,0.2,0,0.3c0,0,0,0,0,0.1l0,0.1l0,0c0.2,2.2,1.8,3.9,3.9,4l0,0h31.4c0,0,0,0,0,0c0,0,0,0,0,0h0.1l0,0c2.2-0.1,3.9-1.8,4.1-4l0,0l0,0c0,0,0,0,0-0.1c0-0.1,0-0.1,0-0.2l1.5-31h0c0,0,0,0,0,0C45.3,11.9,44.9,11.5,44.4,11.5z M24,2.8c4.1,0,7.5,3.9,7.6,8.7H16.4C16.5,6.7,19.9,2.8,24,2.8z M31.9,35.8c-0.3,2.3-1.7,4.2-3.9,5.1c-1.2,0.5-2.8,0.8-4.1,0.7c-2-0.1-3.9-0.6-5.6-1.4c-0.6-0.3-1.6-1-2.3-1.5c-0.2-0.1-0.2-0.3-0.1-0.5c0.2-0.2,0.8-1.2,0.9-1.3c0.1-0.2,0.4-0.2,0.6-0.1c0,0,0.2,0.2,0.3,0.2c1.7,1.3,3.8,2.3,6.2,2.4c3,0,5.2-1.4,5.6-3.5c0.4-2.3-1.4-4.3-4.9-5.4c-1.1-0.3-3.9-1.5-4.5-1.8c-2.5-1.4-3.6-3.3-3.4-5.6c0.2-3.2,3.2-5.6,7-5.6c1.8,0,3.5,0.4,5,1c0.6,0.2,1.6,0.8,2,1.1c0.3,0.2,0.2,0.4,0.1,0.6c-0.2,0.2-0.6,0.9-0.8,1.2c-0.1,0.2-0.3,0.2-0.5,0.1c-1.9-1.3-3.9-1.7-5.7-1.8c-2.6,0.1-4.6,1.6-4.7,3.7c0,1.9,1.4,3.3,4.5,4.3C29.9,29.6,32.3,32,31.9,35.8z">
+                            </path>
+                        </svg>
                     </div>
-                    <div class="main-content col col-10">
-                        <!-- Begin: Main nav -->
-                        <div class="main-content__navigator">
-                            <div class="right-nav">
-                                <span class="main-content__nav-title">Sắp xếp theo</span>
-                                <div class="button primary-button primary-button--active">Phổ biến</div>
-                                <div class="button primary-button">Mới nhất</div>
-                                <div class="button primary-button">Bán chạy</div>
-                                <div class="button sort-by-selector ">
-                                    <div class="current-option-container">
-                                        <span class="current-option">Giá</span>
-                                        <i class="fal fa-chevron-down"></i>
-                                    </div>
-                                    <ul class="sort-by__sub-menu">
-                                        <li class="sort-by__item">Giá: Thấp đến Cao</li>
-                                        <li class="sort-by__item">Giá: Cao đến Thấp</li>
+                    <span class="separate-logo"></span>
+                    <div class="shopee-logo-text">
+                        <svg viewBox="0 0 220 44" <g fill="#fff" fill-rule="evenodd" transform="translate(0 -.098)">
+                            <path
+                                d="M195.78 30.899a10.49 10.49 0 0 1-6.81 2.484c-5.732 0-10.378-4.53-10.378-10.12 0-5.59 4.646-10.12 10.378-10.12 2.606 0 4.988.937 6.81 2.484.023-1.13.882-1.942 1.938-1.942 1.07 0 1.937.834 1.937 1.989v15.73c0 1.154-.868 1.98-1.937 1.98-1.07 0-1.938-.826-1.938-1.98zm-.062-7.643c0-3.588-3.024-6.497-6.755-6.497-3.73 0-6.754 2.91-6.754 6.497 0 3.588 3.024 6.498 6.754 6.498 3.73 0 6.755-2.91 6.755-6.498zM202.9 25.388V3.558c0-1.07.855-1.938 1.911-1.938s1.912.867 1.912 1.938v22.069c0 .043-.002.087-.004.13-.018 2.461.369 3.293 2.029 3.768 1.016.291 1.553 1.396 1.266 2.426-.237.854-.77 1.377-1.605 1.377h-.18c-.171 0-.347-.024-.52-.073-2.735-.783-4.904-2.78-4.81-7.867zM212.266 25.535V3.558c0-1.07.856-1.938 1.912-1.938s1.912.867 1.912 1.938V25.825c0 .082-.005.163-.015.242-.06 2.212.146 2.858 2.325 3.31 1.034.215 1.632 1.26 1.42 2.309-.186.916-.914 1.527-1.803 1.527-.127 0-.256-.013-.386-.04-2.882-.599-5.553-2.131-5.365-7.638zM97.886 24.307c.095.561.266 1.256.563 2.09 1.317 3.309 5.375 3.3 5.986 3.309 1.753.025 3.396-.331 5.011-1.223.906-.5 1.985-.412 2.556.405.572.818.395 2.028-.723 2.71-2.208 1.348-4.574 1.758-7.01 1.708-3.798-.078-7.4-1.591-9.01-5.204-.733-1.644-1.158-3.561-1.027-5.376.058-2.086.844-3.867 1.047-4.334.928-2.127 2.557-3.814 4.725-4.702 2.646-1.082 6.008-.916 8.53.43 2.936 1.566 4.571 5.136 4.41 8.384-.049.975-.799 1.803-1.817 1.803zm.412-3.333h10.906c-.86-4.592-5.845-4.37-5.845-4.37-2.52.098-4.207 1.555-5.061 4.37zM119.618 24.354c.095.561.266 1.257.563 2.09 1.318 3.31 5.376 3.3 5.986 3.31 1.753.024 3.396-.332 5.012-1.223.905-.5 1.984-.413 2.556.405.571.817.394 2.027-.723 2.71-2.209 1.347-4.574 1.758-7.011 1.707-3.797-.077-7.4-1.591-9.01-5.204-.732-1.644-1.158-3.56-1.026-5.376.058-2.085.843-3.867 1.047-4.333.928-2.127 2.557-3.815 4.725-4.702 2.645-1.083 6.007-.916 8.53.43 2.936 1.565 4.57 5.136 4.409 8.383-.049.976-.798 1.803-1.816 1.803zm.412-3.333h10.907c-.86-4.592-5.846-4.37-5.846-4.37-2.52.099-4.206 1.555-5.06 4.37zM74.109 30.871v11.367c0 2.34-3.632 2.337-3.632 0V23.806a10.064 10.064 0 0 1 0-1.329v-7.575c0-2.34 3.632-2.337 3.632 0v.51a10.537 10.537 0 0 1 6.768-2.434c5.756 0 10.422 4.55 10.422 10.164 0 5.613-4.666 10.164-10.422 10.164-2.584 0-4.947-.917-6.768-2.435zm0-7.207c.28 3.356 3.2 5.997 6.762 5.997 3.746 0 6.784-2.922 6.784-6.526 0-3.604-3.038-6.526-6.784-6.526-3.562 0-6.483 2.64-6.762 5.997zM57.09 33.306c-5.757 0-10.423-4.55-10.423-10.164s4.666-10.164 10.422-10.164 10.422 4.55 10.422 10.164c0 5.613-4.666 10.164-10.422 10.164zm-.007-3.645c3.747 0 6.784-2.922 6.784-6.526 0-3.604-3.037-6.526-6.784-6.526s-6.784 2.922-6.784 6.526c0 3.604 3.037 6.526 6.784 6.526zM28.69 15.026V2.111c0-2.337-3.631-2.34-3.631 0v29.471c0 2.337 3.631 2.341 3.631 0v-9.695c.015.364.018-.522.273-1.22.953-3.151 3.823-3.751 5.115-3.77 3.696 0 5.652 1.803 5.868 5.408V31.582c0 2.337 3.627 2.341 3.627 0v-6.126c0-1.753.106-3.676 0-4.789-.584-6.843-9.5-9.68-14.455-5.979a9.572 9.572 0 0 0-.428.338zM4.294 2.62c-2.156 1.909-3.15 5.385-2.369 8.155.678 2.4 2.66 4.27 4.803 5.323 2.222 1.09 4.676 1.673 6.564 2.505 1.32.59 2.456 1.153 3.595 2.305 1.138 1.152 1.62 2.586 1.587 3.65-.033 1.085-.441 2.182-1.023 2.869-1.487 1.755-3.889 2.414-6.106 2.303-1.572-.078-3.29-.422-4.692-1.016-1.42-.601-2.671-1.582-3.921-2.438-.807-.553-1.99-.282-2.526.631-.468.811-.098 1.92.693 2.505 2.376 1.757 4.89 3.1 7.808 3.631 2.918.532 5.463.41 8.09-.741 2.462-1.08 4.468-3.198 5.07-5.862.627-2.775-.09-5.41-1.923-7.58-2.21-2.618-5.47-3.626-8.54-4.733a24.208 24.208 0 0 1-3.295-1.423c-1.908-.973-2.883-2.363-2.75-4.528.158-2.578 2.278-3.913 4.906-4.266 2.628-.353 5.337.53 7.25 1.864 1.833 1.194 3.93-1.64 1.833-3.136C15.15-.207 8.288-.914 4.294 2.621z">
+                            </path>
+                            <path
+                                d="M171.002 3.338c-1.545 4.329-5.841 7.27-10.7 7.186-4.8-.084-8.954-3.103-10.394-7.412-.33-.983-1.407-1.519-2.408-1.197a1.865 1.865 0 0 0-1.217 2.364c1.946 5.823 7.526 9.879 13.954 9.991 6.505.114 12.277-3.84 14.365-9.69a1.866 1.866 0 0 0-1.17-2.39c-.993-.342-2.082.171-2.43 1.148z"
+                                fill-rule="nonzero"></path>
+                            <path
+                                d="M173.191 1.8a1.98 1.98 0 0 1 1.98 1.98v27.546a1.98 1.98 0 1 1-3.96 0V3.78a1.98 1.98 0 0 1 1.98-1.98zM147.807 1.8a1.98 1.98 0 0 1 1.98 1.98v27.546a1.98 1.98 0 1 1-3.96 0V3.78a1.98 1.98 0 0 1 1.98-1.98z">
+                            </path>
+                            <circle cx="173.101" cy="3.691" r="2.07"></circle>
+                            <circle cx="147.897" cy="3.691" r="2.07"></circle>
+                            </g>
+                        </svg>
+                    </div>
+                </div>
+                <div class="header-rightside">
+                    <div class="header-search">
+                        <!-- <div class="search-bar"> -->
+                        <form action="" class="search-bar">
+                            <input type="text" class="search-bar__input" placeholder="Tìm trong Shop này" />
+                            <span class="search-bar__separate"></span>
+                            <div class="search-bar__options">
+                                <span>
+                                    Trong Shop này
+                                    <i class="fal fa-chevron-down"></i>
+                                </span>
+                                <div class="search-bar__options-main overlay">
+                                    <ul class="options-list">
+                                        <li class="options current-selection">
+                                            Trong Shop này
+                                            <i class="fa fa-check"></i>
+                                        </li>
+                                        <li class="options">
+                                            Trong Shopee
+                                            <i class="fa fa-check"></i>
+                                        </li>
                                     </ul>
                                 </div>
                             </div>
-                            
-                            <div class="left-nav">
-                                <span class="current-page">1</span>
-                                /
-                                <span class="total-page">2</span>
-                                <div class="nav-page-btn prev-page disabled-button">
-                                    <i class="fal fa-chevron-left"></i>
+                            <div class="search-bar__button">
+                                <i class="fa fa-search"></i>
+                            </div>
+                        </form>
+                    </div>
+                    <a href="#" class="header-cart">
+                        <i class="fa fa-shopping-cart cart-icon"></i>
+                        <span class="current-items">12</span>
+                    </a>
+                </div>
+            </div>
+        </header>
+        <div class="container grid">
+            <a href="#" class="row breadcumb-main">
+                <i class="fal fa-chevron-left"></i>
+                TRỞ LẠI TRANG CỦA SHOP
+            </a>
+            <div class="row app-content">
+                <div class="main-category col col-2">
+                    <div class="store-details-category">
+                        <div class="store-details-category__ava-holder shopee-mall-label">
+                            <!-- <img src="https://cf.shopee.vn/file/62160f74aa5cffa160b2062658d2be75_tn" alt="" class="main-category__shop-ava"> -->
+                            <img src="./assets/img/chaminu.jpg" alt="" class="main-category__shop-ava">
+                        </div>
+                        <h4 class="store-details-category__name">Chà Mi Nu Na Nu Nống</h4>
+                        <p class="store-details-category__online-status">Online 41 phút trước</p>
+                    </div>
+                    <div class="category-list-container ">
+                        <h3 class="category-header">DANH MỤC SHOP</h3>
+                        <ul class="main-category__products-list">
+                            <li class="main-category__items  main-category__items--active">Sản Phẩm</li>
+                            <li class="main-category__items">Macbook nâng cấp</li>
+                            <li class="main-category__items">AirPods</li>
+                            <li class="main-category__items">iPhone</li>
+                            <li class="main-category__items">Apple Watch</li>
+                            <li class="main-category__items">Macbook</li>
+                            <li class="main-category__items">Phụ kiện Apple</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="main-content col col-10">
+                    <!-- Begin: Main nav -->
+                    <div class="main-content__navigator">
+                        <div class="right-nav">
+                            <span class="main-content__nav-title">Sắp xếp theo</span>
+                            <div class="button primary-button primary-button--active">Phổ biến</div>
+                            <div class="button primary-button">Mới nhất</div>
+                            <div class="button primary-button">Bán chạy</div>
+                            <div class="button sort-by-selector ">
+                                <div class="current-option-container">
+                                    <span class="current-option">Giá</span>
+                                    <i class="fal fa-chevron-down"></i>
                                 </div>
-                                <div class="nav-page-btn next-page">
-                                    <i class="fal fa-chevron-right"></i>
-                                </div>
+                                <ul class="sort-by__sub-menu">
+                                    <li class="sort-by__item">Giá: Thấp đến Cao</li>
+                                    <li class="sort-by__item">Giá: Cao đến Thấp</li>
+                                </ul>
                             </div>
                         </div>
-                        <!-- End: Main nav -->
-                        <div class="grid">
-                            <div class="row">
-                                <div class="product-item col-2-10 col">
-                                    <div class="item__mall-tag">
-                                        <div class="text-inside"></div>
-                                    </div> 
-                                    <div class="item__sale-tag">
-                                        <span class="sale-percent">36%</span>
-                                        <span class="sale-text">GIẢM</span>
-                                    </div> 
-                                    <div class="product-item__img item__event-overlay" style="background-image: url('https://cf.shopee.vn/file/b107f2e6167adb250100ec4c8d028a57');"></div>
-                                    <div class="product-item__details">
-                                        <div class="product-item__name">
-                                            <span>Apple iPhone 11 64GB</span>
-                                        </div>
-                                        <div class="product-item__hashtag">ShopDacBiet</div>
-                                        <div class="product-item__price-container">
-                                            <div class="product-item__old-price">₫21.990.000</div>
-                                            <div class="product-item__current-price">₫13.990.000</div>
-                                            <div class="free-shipping-icon">
-                                                <svg height="12" viewBox="0 0 20 12" width="20" class="shopee-svg-icon icon-free-shipping"><g fill="none" fill-rule="evenodd" transform=""><rect fill="#00bfa5" fill-rule="evenodd" height="9" rx="1" width="12" x="4"></rect><rect height="8" rx="1" stroke="#00bfa5" width="11" x="4.5" y=".5"></rect><rect fill="#00bfa5" fill-rule="evenodd" height="7" rx="1" width="7" x="13" y="2"></rect><rect height="6" rx="1" stroke="#00bfa5" width="6" x="13.5" y="2.5"></rect><circle cx="8" cy="10" fill="#00bfa5" r="2"></circle><circle cx="15" cy="10" fill="#00bfa5" r="2"></circle><path d="m6.7082481 6.7999878h-.7082481v-4.2275391h2.8488017v.5976563h-2.1405536v1.2978515h1.9603297v.5800782h-1.9603297zm2.6762505 0v-3.1904297h.6544972v.4892578h.0505892c.0980164-.3134765.4774351-.5419922.9264138-.5419922.0980165 0 .2276512.0087891.3003731.0263672v.6210938c-.053751-.0175782-.2624312-.038086-.3762568-.038086-.5122152 0-.8758247.3017578-.8758247.75v1.8837891zm3.608988-2.7158203c-.5027297 0-.8536919.328125-.8916338.8261719h1.7390022c-.0158092-.5009766-.3446386-.8261719-.8473684-.8261719zm.8442065 1.8544922h.6544972c-.1549293.571289-.7050863.9228515-1.49238.9228515-.9864885 0-1.5903965-.6269531-1.5903965-1.6464843 0-1.0195313.6165553-1.6669922 1.5872347-1.6669922.9580321 0 1.5366455.6064453 1.5366455 1.6083984v.2197266h-2.4314412v.0351562c.0221328.5595703.373095.9140625.9169284.9140625.4110369 0 .6924391-.1376953.8189119-.3867187zm2.6224996-1.8544922c-.5027297 0-.853692.328125-.8916339.8261719h1.7390022c-.0158091-.5009766-.3446386-.8261719-.8473683-.8261719zm.8442064 1.8544922h.6544972c-.1549293.571289-.7050863.9228515-1.49238.9228515-.9864885 0-1.5903965-.6269531-1.5903965-1.6464843 0-1.0195313.6165553-1.6669922 1.5872347-1.6669922.9580321 0 1.5366455.6064453 1.5366455 1.6083984v.2197266h-2.4314412v.0351562c.0221328.5595703.373095.9140625.9169284.9140625.4110369 0 .6924391-.1376953.8189119-.3867187z" fill="#fff"></path><path d="m .5 8.5h3.5v1h-3.5z" fill="#00bfa5"></path><path d="m0 10.15674h3.5v1h-3.5z" fill="#00bfa5"></path><circle cx="8" cy="10" fill="#047565" r="1"></circle><circle cx="15" cy="10" fill="#047565" r="1"></circle></g></svg>
-                                            </div>
-                                        </div>
-                                        <div class="product-item__status">
-                                            <div class="like-icon">
-                                                <i class="far fa-heart not-like-heart"></i>
-                                                <i class="fas fa-heart liked-heart icon-off"></i>
-                                            </div>
-                                            <div class="rating">
-                                                <i class="fas fa-star golden-star"></i>
-                                                <i class="fas fa-star golden-star"></i>
-                                                <i class="fas fa-star golden-star"></i>
-                                                <i class="fas fa-star golden-star"></i>
-                                                <i class="fas fa-star star "></i>
-                                            </div>
-                                            <div class="selling-items">
-                                                Đã bán <span class="selling-items-quantity">5,1k</span>
-                                            </div>
-                                        </div>
-                                        <span class="product-item__location">TP. Hồ Chí Minh</span>
-                                    </div>
-                                </div>
-                                <div class="product-item col-2-10 col">
-                                    <div class="item__mall-tag">
-                                        <div class="text-inside"></div>
-                                    </div> 
-                                    <div class="item__sale-tag">
-                                        <span class="sale-percent">36%</span>
-                                        <span class="sale-text">GIẢM</span>
-                                    </div> 
-                                    <div class="product-item__img item__event-overlay" style="background-image: url('https://cf.shopee.vn/file/b107f2e6167adb250100ec4c8d028a57');"></div>
-                                    <div class="product-item__details">
-                                        <div class="product-item__name">
-                                            <span>Apple iPhone 11 64GB</span>
-                                        </div>
-                                        <div class="product-item__hashtag">ShopDacBiet</div>
-                                        <div class="product-item__price-container">
-                                            <div class="product-item__old-price">₫21.990.000</div>
-                                            <div class="product-item__current-price">₫13.990.000</div>
-                                            <div class="free-shipping-icon">
-                                                <svg height="12" viewBox="0 0 20 12" width="20" class="shopee-svg-icon icon-free-shipping"><g fill="none" fill-rule="evenodd" transform=""><rect fill="#00bfa5" fill-rule="evenodd" height="9" rx="1" width="12" x="4"></rect><rect height="8" rx="1" stroke="#00bfa5" width="11" x="4.5" y=".5"></rect><rect fill="#00bfa5" fill-rule="evenodd" height="7" rx="1" width="7" x="13" y="2"></rect><rect height="6" rx="1" stroke="#00bfa5" width="6" x="13.5" y="2.5"></rect><circle cx="8" cy="10" fill="#00bfa5" r="2"></circle><circle cx="15" cy="10" fill="#00bfa5" r="2"></circle><path d="m6.7082481 6.7999878h-.7082481v-4.2275391h2.8488017v.5976563h-2.1405536v1.2978515h1.9603297v.5800782h-1.9603297zm2.6762505 0v-3.1904297h.6544972v.4892578h.0505892c.0980164-.3134765.4774351-.5419922.9264138-.5419922.0980165 0 .2276512.0087891.3003731.0263672v.6210938c-.053751-.0175782-.2624312-.038086-.3762568-.038086-.5122152 0-.8758247.3017578-.8758247.75v1.8837891zm3.608988-2.7158203c-.5027297 0-.8536919.328125-.8916338.8261719h1.7390022c-.0158092-.5009766-.3446386-.8261719-.8473684-.8261719zm.8442065 1.8544922h.6544972c-.1549293.571289-.7050863.9228515-1.49238.9228515-.9864885 0-1.5903965-.6269531-1.5903965-1.6464843 0-1.0195313.6165553-1.6669922 1.5872347-1.6669922.9580321 0 1.5366455.6064453 1.5366455 1.6083984v.2197266h-2.4314412v.0351562c.0221328.5595703.373095.9140625.9169284.9140625.4110369 0 .6924391-.1376953.8189119-.3867187zm2.6224996-1.8544922c-.5027297 0-.853692.328125-.8916339.8261719h1.7390022c-.0158091-.5009766-.3446386-.8261719-.8473683-.8261719zm.8442064 1.8544922h.6544972c-.1549293.571289-.7050863.9228515-1.49238.9228515-.9864885 0-1.5903965-.6269531-1.5903965-1.6464843 0-1.0195313.6165553-1.6669922 1.5872347-1.6669922.9580321 0 1.5366455.6064453 1.5366455 1.6083984v.2197266h-2.4314412v.0351562c.0221328.5595703.373095.9140625.9169284.9140625.4110369 0 .6924391-.1376953.8189119-.3867187z" fill="#fff"></path><path d="m .5 8.5h3.5v1h-3.5z" fill="#00bfa5"></path><path d="m0 10.15674h3.5v1h-3.5z" fill="#00bfa5"></path><circle cx="8" cy="10" fill="#047565" r="1"></circle><circle cx="15" cy="10" fill="#047565" r="1"></circle></g></svg>
-                                            </div>
-                                        </div>
-                                        <div class="product-item__status">
-                                            <div class="like-icon">
-                                                <i class="far fa-heart not-like-heart"></i>
-                                                <i class="fas fa-heart liked-heart icon-off"></i>
-                                            </div>
-                                            <div class="rating">
-                                                <i class="fas fa-star golden-star"></i>
-                                                <i class="fas fa-star golden-star"></i>
-                                                <i class="fas fa-star golden-star"></i>
-                                                <i class="fas fa-star golden-star"></i>
-                                                <i class="fas fa-star star "></i>
-                                            </div>
-                                            <div class="selling-items">
-                                                Đã bán <span class="selling-items-quantity">5,1k</span>
-                                            </div>
-                                        </div>
-                                        <span class="product-item__location">TP. Hồ Chí Minh</span>
-                                    </div>
-                                </div>
-                                <div class="product-item col-2-10 col">
-                                    <div class="item__mall-tag">
-                                        <div class="text-inside"></div>
-                                    </div> 
-                                    <div class="item__sale-tag">
-                                        <span class="sale-percent">36%</span>
-                                        <span class="sale-text">GIẢM</span>
-                                    </div> 
-                                    <div class="product-item__img item__event-overlay" style="background-image: url('https://cf.shopee.vn/file/b107f2e6167adb250100ec4c8d028a57');"></div>
-                                    <div class="product-item__details">
-                                        <div class="product-item__name">
-                                            <span>Apple iPhone 11 64GB</span>
-                                        </div>
-                                        <div class="product-item__hashtag">ShopDacBiet</div>
-                                        <div class="product-item__price-container">
-                                            <div class="product-item__old-price">₫21.990.000</div>
-                                            <div class="product-item__current-price">₫13.990.000</div>
-                                            <div class="free-shipping-icon">
-                                                <svg height="12" viewBox="0 0 20 12" width="20" class="shopee-svg-icon icon-free-shipping"><g fill="none" fill-rule="evenodd" transform=""><rect fill="#00bfa5" fill-rule="evenodd" height="9" rx="1" width="12" x="4"></rect><rect height="8" rx="1" stroke="#00bfa5" width="11" x="4.5" y=".5"></rect><rect fill="#00bfa5" fill-rule="evenodd" height="7" rx="1" width="7" x="13" y="2"></rect><rect height="6" rx="1" stroke="#00bfa5" width="6" x="13.5" y="2.5"></rect><circle cx="8" cy="10" fill="#00bfa5" r="2"></circle><circle cx="15" cy="10" fill="#00bfa5" r="2"></circle><path d="m6.7082481 6.7999878h-.7082481v-4.2275391h2.8488017v.5976563h-2.1405536v1.2978515h1.9603297v.5800782h-1.9603297zm2.6762505 0v-3.1904297h.6544972v.4892578h.0505892c.0980164-.3134765.4774351-.5419922.9264138-.5419922.0980165 0 .2276512.0087891.3003731.0263672v.6210938c-.053751-.0175782-.2624312-.038086-.3762568-.038086-.5122152 0-.8758247.3017578-.8758247.75v1.8837891zm3.608988-2.7158203c-.5027297 0-.8536919.328125-.8916338.8261719h1.7390022c-.0158092-.5009766-.3446386-.8261719-.8473684-.8261719zm.8442065 1.8544922h.6544972c-.1549293.571289-.7050863.9228515-1.49238.9228515-.9864885 0-1.5903965-.6269531-1.5903965-1.6464843 0-1.0195313.6165553-1.6669922 1.5872347-1.6669922.9580321 0 1.5366455.6064453 1.5366455 1.6083984v.2197266h-2.4314412v.0351562c.0221328.5595703.373095.9140625.9169284.9140625.4110369 0 .6924391-.1376953.8189119-.3867187zm2.6224996-1.8544922c-.5027297 0-.853692.328125-.8916339.8261719h1.7390022c-.0158091-.5009766-.3446386-.8261719-.8473683-.8261719zm.8442064 1.8544922h.6544972c-.1549293.571289-.7050863.9228515-1.49238.9228515-.9864885 0-1.5903965-.6269531-1.5903965-1.6464843 0-1.0195313.6165553-1.6669922 1.5872347-1.6669922.9580321 0 1.5366455.6064453 1.5366455 1.6083984v.2197266h-2.4314412v.0351562c.0221328.5595703.373095.9140625.9169284.9140625.4110369 0 .6924391-.1376953.8189119-.3867187z" fill="#fff"></path><path d="m .5 8.5h3.5v1h-3.5z" fill="#00bfa5"></path><path d="m0 10.15674h3.5v1h-3.5z" fill="#00bfa5"></path><circle cx="8" cy="10" fill="#047565" r="1"></circle><circle cx="15" cy="10" fill="#047565" r="1"></circle></g></svg>
-                                            </div>
-                                        </div>
-                                        <div class="product-item__status">
-                                            <div class="like-icon">
-                                                <i class="far fa-heart not-like-heart"></i>
-                                                <i class="fas fa-heart liked-heart icon-off"></i>
-                                            </div>
-                                            <div class="rating">
-                                                <i class="fas fa-star golden-star"></i>
-                                                <i class="fas fa-star golden-star"></i>
-                                                <i class="fas fa-star golden-star"></i>
-                                                <i class="fas fa-star golden-star"></i>
-                                                <i class="fas fa-star star "></i>
-                                            </div>
-                                            <div class="selling-items">
-                                                Đã bán <span class="selling-items-quantity">5,1k</span>
-                                            </div>
-                                        </div>
-                                        <span class="product-item__location">TP. Hồ Chí Minh</span>
-                                    </div>
-                                </div>
-                                <div class="product-item col-2-10 col">
-                                    <div class="item__mall-tag">
-                                        <div class="text-inside"></div>
-                                    </div> 
-                                    <div class="item__sale-tag">
-                                        <span class="sale-percent">36%</span>
-                                        <span class="sale-text">GIẢM</span>
-                                    </div> 
-                                    <div class="product-item__img item__event-overlay" style="background-image: url('https://cf.shopee.vn/file/b107f2e6167adb250100ec4c8d028a57');"></div>
-                                    <div class="product-item__details">
-                                        <div class="product-item__name">
-                                            <span>Apple iPhone 11 64GB</span>
-                                        </div>
-                                        <div class="product-item__hashtag">ShopDacBiet</div>
-                                        <div class="product-item__price-container">
-                                            <div class="product-item__old-price">₫21.990.000</div>
-                                            <div class="product-item__current-price">₫13.990.000</div>
-                                            <div class="free-shipping-icon">
-                                                <svg height="12" viewBox="0 0 20 12" width="20" class="shopee-svg-icon icon-free-shipping"><g fill="none" fill-rule="evenodd" transform=""><rect fill="#00bfa5" fill-rule="evenodd" height="9" rx="1" width="12" x="4"></rect><rect height="8" rx="1" stroke="#00bfa5" width="11" x="4.5" y=".5"></rect><rect fill="#00bfa5" fill-rule="evenodd" height="7" rx="1" width="7" x="13" y="2"></rect><rect height="6" rx="1" stroke="#00bfa5" width="6" x="13.5" y="2.5"></rect><circle cx="8" cy="10" fill="#00bfa5" r="2"></circle><circle cx="15" cy="10" fill="#00bfa5" r="2"></circle><path d="m6.7082481 6.7999878h-.7082481v-4.2275391h2.8488017v.5976563h-2.1405536v1.2978515h1.9603297v.5800782h-1.9603297zm2.6762505 0v-3.1904297h.6544972v.4892578h.0505892c.0980164-.3134765.4774351-.5419922.9264138-.5419922.0980165 0 .2276512.0087891.3003731.0263672v.6210938c-.053751-.0175782-.2624312-.038086-.3762568-.038086-.5122152 0-.8758247.3017578-.8758247.75v1.8837891zm3.608988-2.7158203c-.5027297 0-.8536919.328125-.8916338.8261719h1.7390022c-.0158092-.5009766-.3446386-.8261719-.8473684-.8261719zm.8442065 1.8544922h.6544972c-.1549293.571289-.7050863.9228515-1.49238.9228515-.9864885 0-1.5903965-.6269531-1.5903965-1.6464843 0-1.0195313.6165553-1.6669922 1.5872347-1.6669922.9580321 0 1.5366455.6064453 1.5366455 1.6083984v.2197266h-2.4314412v.0351562c.0221328.5595703.373095.9140625.9169284.9140625.4110369 0 .6924391-.1376953.8189119-.3867187zm2.6224996-1.8544922c-.5027297 0-.853692.328125-.8916339.8261719h1.7390022c-.0158091-.5009766-.3446386-.8261719-.8473683-.8261719zm.8442064 1.8544922h.6544972c-.1549293.571289-.7050863.9228515-1.49238.9228515-.9864885 0-1.5903965-.6269531-1.5903965-1.6464843 0-1.0195313.6165553-1.6669922 1.5872347-1.6669922.9580321 0 1.5366455.6064453 1.5366455 1.6083984v.2197266h-2.4314412v.0351562c.0221328.5595703.373095.9140625.9169284.9140625.4110369 0 .6924391-.1376953.8189119-.3867187z" fill="#fff"></path><path d="m .5 8.5h3.5v1h-3.5z" fill="#00bfa5"></path><path d="m0 10.15674h3.5v1h-3.5z" fill="#00bfa5"></path><circle cx="8" cy="10" fill="#047565" r="1"></circle><circle cx="15" cy="10" fill="#047565" r="1"></circle></g></svg>
-                                            </div>
-                                        </div>
-                                        <div class="product-item__status">
-                                            <div class="like-icon">
-                                                <i class="far fa-heart not-like-heart"></i>
-                                                <i class="fas fa-heart liked-heart icon-off"></i>
-                                            </div>
-                                            <div class="rating">
-                                                <i class="fas fa-star golden-star"></i>
-                                                <i class="fas fa-star golden-star"></i>
-                                                <i class="fas fa-star golden-star"></i>
-                                                <i class="fas fa-star golden-star"></i>
-                                                <i class="fas fa-star star "></i>
-                                            </div>
-                                            <div class="selling-items">
-                                                Đã bán <span class="selling-items-quantity">5,1k</span>
-                                            </div>
-                                        </div>
-                                        <span class="product-item__location">TP. Hồ Chí Minh</span>
-                                    </div>
-                                </div>
-                                <div class="product-item col-2-10 col">
-                                    <div class="item__mall-tag">
-                                        <div class="text-inside"></div>
-                                    </div> 
-                                    <div class="item__sale-tag">
-                                        <span class="sale-percent">36%</span>
-                                        <span class="sale-text">GIẢM</span>
-                                    </div> 
-                                    <div class="product-item__img item__event-overlay" style="background-image: url('https://cf.shopee.vn/file/b107f2e6167adb250100ec4c8d028a57');"></div>
-                                    <div class="product-item__details">
-                                        <div class="product-item__name">
-                                            <span>Apple iPhone 11 64GB</span>
-                                        </div>
-                                        <div class="product-item__hashtag">ShopDacBiet</div>
-                                        <div class="product-item__price-container">
-                                            <div class="product-item__old-price">₫21.990.000</div>
-                                            <div class="product-item__current-price">₫13.990.000</div>
-                                            <div class="free-shipping-icon">
-                                                <svg height="12" viewBox="0 0 20 12" width="20" class="shopee-svg-icon icon-free-shipping"><g fill="none" fill-rule="evenodd" transform=""><rect fill="#00bfa5" fill-rule="evenodd" height="9" rx="1" width="12" x="4"></rect><rect height="8" rx="1" stroke="#00bfa5" width="11" x="4.5" y=".5"></rect><rect fill="#00bfa5" fill-rule="evenodd" height="7" rx="1" width="7" x="13" y="2"></rect><rect height="6" rx="1" stroke="#00bfa5" width="6" x="13.5" y="2.5"></rect><circle cx="8" cy="10" fill="#00bfa5" r="2"></circle><circle cx="15" cy="10" fill="#00bfa5" r="2"></circle><path d="m6.7082481 6.7999878h-.7082481v-4.2275391h2.8488017v.5976563h-2.1405536v1.2978515h1.9603297v.5800782h-1.9603297zm2.6762505 0v-3.1904297h.6544972v.4892578h.0505892c.0980164-.3134765.4774351-.5419922.9264138-.5419922.0980165 0 .2276512.0087891.3003731.0263672v.6210938c-.053751-.0175782-.2624312-.038086-.3762568-.038086-.5122152 0-.8758247.3017578-.8758247.75v1.8837891zm3.608988-2.7158203c-.5027297 0-.8536919.328125-.8916338.8261719h1.7390022c-.0158092-.5009766-.3446386-.8261719-.8473684-.8261719zm.8442065 1.8544922h.6544972c-.1549293.571289-.7050863.9228515-1.49238.9228515-.9864885 0-1.5903965-.6269531-1.5903965-1.6464843 0-1.0195313.6165553-1.6669922 1.5872347-1.6669922.9580321 0 1.5366455.6064453 1.5366455 1.6083984v.2197266h-2.4314412v.0351562c.0221328.5595703.373095.9140625.9169284.9140625.4110369 0 .6924391-.1376953.8189119-.3867187zm2.6224996-1.8544922c-.5027297 0-.853692.328125-.8916339.8261719h1.7390022c-.0158091-.5009766-.3446386-.8261719-.8473683-.8261719zm.8442064 1.8544922h.6544972c-.1549293.571289-.7050863.9228515-1.49238.9228515-.9864885 0-1.5903965-.6269531-1.5903965-1.6464843 0-1.0195313.6165553-1.6669922 1.5872347-1.6669922.9580321 0 1.5366455.6064453 1.5366455 1.6083984v.2197266h-2.4314412v.0351562c.0221328.5595703.373095.9140625.9169284.9140625.4110369 0 .6924391-.1376953.8189119-.3867187z" fill="#fff"></path><path d="m .5 8.5h3.5v1h-3.5z" fill="#00bfa5"></path><path d="m0 10.15674h3.5v1h-3.5z" fill="#00bfa5"></path><circle cx="8" cy="10" fill="#047565" r="1"></circle><circle cx="15" cy="10" fill="#047565" r="1"></circle></g></svg>
-                                            </div>
-                                        </div>
-                                        <div class="product-item__status">
-                                            <div class="like-icon">
-                                                <i class="far fa-heart not-like-heart"></i>
-                                                <i class="fas fa-heart liked-heart icon-off"></i>
-                                            </div>
-                                            <div class="rating">
-                                                <i class="fas fa-star golden-star"></i>
-                                                <i class="fas fa-star golden-star"></i>
-                                                <i class="fas fa-star golden-star"></i>
-                                                <i class="fas fa-star golden-star"></i>
-                                                <i class="fas fa-star star "></i>
-                                            </div>
-                                            <div class="selling-items">
-                                                Đã bán <span class="selling-items-quantity">5,1k</span>
-                                            </div>
-                                        </div>
-                                        <span class="product-item__location">TP. Hồ Chí Minh</span>
-                                    </div>
-                                </div>
-                                <div class="product-item col-2-10 col">
-                                    <div class="item__mall-tag">
-                                        <div class="text-inside"></div>
-                                    </div> 
-                                    <div class="item__sale-tag">
-                                        <span class="sale-percent">36%</span>
-                                        <span class="sale-text">GIẢM</span>
-                                    </div> 
-                                    <div class="product-item__img item__event-overlay" style="background-image: url('https://cf.shopee.vn/file/b107f2e6167adb250100ec4c8d028a57');"></div>
-                                    <div class="product-item__details">
-                                        <div class="product-item__name">
-                                            <span>Apple iPhone 11 64GB</span>
-                                        </div>
-                                        <div class="product-item__hashtag">ShopDacBiet</div>
-                                        <div class="product-item__price-container">
-                                            <div class="product-item__old-price">₫21.990.000</div>
-                                            <div class="product-item__current-price">₫13.990.000</div>
-                                            <div class="free-shipping-icon">
-                                                <svg height="12" viewBox="0 0 20 12" width="20" class="shopee-svg-icon icon-free-shipping"><g fill="none" fill-rule="evenodd" transform=""><rect fill="#00bfa5" fill-rule="evenodd" height="9" rx="1" width="12" x="4"></rect><rect height="8" rx="1" stroke="#00bfa5" width="11" x="4.5" y=".5"></rect><rect fill="#00bfa5" fill-rule="evenodd" height="7" rx="1" width="7" x="13" y="2"></rect><rect height="6" rx="1" stroke="#00bfa5" width="6" x="13.5" y="2.5"></rect><circle cx="8" cy="10" fill="#00bfa5" r="2"></circle><circle cx="15" cy="10" fill="#00bfa5" r="2"></circle><path d="m6.7082481 6.7999878h-.7082481v-4.2275391h2.8488017v.5976563h-2.1405536v1.2978515h1.9603297v.5800782h-1.9603297zm2.6762505 0v-3.1904297h.6544972v.4892578h.0505892c.0980164-.3134765.4774351-.5419922.9264138-.5419922.0980165 0 .2276512.0087891.3003731.0263672v.6210938c-.053751-.0175782-.2624312-.038086-.3762568-.038086-.5122152 0-.8758247.3017578-.8758247.75v1.8837891zm3.608988-2.7158203c-.5027297 0-.8536919.328125-.8916338.8261719h1.7390022c-.0158092-.5009766-.3446386-.8261719-.8473684-.8261719zm.8442065 1.8544922h.6544972c-.1549293.571289-.7050863.9228515-1.49238.9228515-.9864885 0-1.5903965-.6269531-1.5903965-1.6464843 0-1.0195313.6165553-1.6669922 1.5872347-1.6669922.9580321 0 1.5366455.6064453 1.5366455 1.6083984v.2197266h-2.4314412v.0351562c.0221328.5595703.373095.9140625.9169284.9140625.4110369 0 .6924391-.1376953.8189119-.3867187zm2.6224996-1.8544922c-.5027297 0-.853692.328125-.8916339.8261719h1.7390022c-.0158091-.5009766-.3446386-.8261719-.8473683-.8261719zm.8442064 1.8544922h.6544972c-.1549293.571289-.7050863.9228515-1.49238.9228515-.9864885 0-1.5903965-.6269531-1.5903965-1.6464843 0-1.0195313.6165553-1.6669922 1.5872347-1.6669922.9580321 0 1.5366455.6064453 1.5366455 1.6083984v.2197266h-2.4314412v.0351562c.0221328.5595703.373095.9140625.9169284.9140625.4110369 0 .6924391-.1376953.8189119-.3867187z" fill="#fff"></path><path d="m .5 8.5h3.5v1h-3.5z" fill="#00bfa5"></path><path d="m0 10.15674h3.5v1h-3.5z" fill="#00bfa5"></path><circle cx="8" cy="10" fill="#047565" r="1"></circle><circle cx="15" cy="10" fill="#047565" r="1"></circle></g></svg>
-                                            </div>
-                                        </div>
-                                        <div class="product-item__status">
-                                            <div class="like-icon">
-                                                <i class="far fa-heart not-like-heart"></i>
-                                                <i class="fas fa-heart liked-heart icon-off"></i>
-                                            </div>
-                                            <div class="rating">
-                                                <i class="fas fa-star golden-star"></i>
-                                                <i class="fas fa-star golden-star"></i>
-                                                <i class="fas fa-star golden-star"></i>
-                                                <i class="fas fa-star golden-star"></i>
-                                                <i class="fas fa-star star "></i>
-                                            </div>
-                                            <div class="selling-items">
-                                                Đã bán <span class="selling-items-quantity">5,1k</span>
-                                            </div>
-                                        </div>
-                                        <span class="product-item__location">TP. Hồ Chí Minh</span>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="main-pagination">
-                            <a href="#" class="main-pagination__button">
+
+                        <div class="left-nav">
+                            <span class="current-page">1</span>
+                            /
+                            <span class="total-page">2</span>
+                            <div class="nav-page-btn prev-page disabled-button">
                                 <i class="fal fa-chevron-left"></i>
-                            </a>
-                            <a href="#" class="main-pagination__button active">1</a>
-                            <a href="#" class="main-pagination__button">2</a>
-                            <a href="#" class="main-pagination__button">
+                            </div>
+                            <div class="nav-page-btn next-page">
                                 <i class="fal fa-chevron-right"></i>
-                            </a>
+                            </div>
                         </div>
+                    </div>
+                    <!-- End: Main nav -->
+                    <div class="grid">
+                        <div class="row">
+                            <div class="product-item col-2-10 col">
+                                <div class="item__mall-tag">
+                                    <div class="text-inside"></div>
+                                </div>
+                                <div class="item__sale-tag">
+                                    <span class="sale-percent">36%</span>
+                                    <span class="sale-text">GIẢM</span>
+                                </div>
+                                <div class="product-item__img item__event-overlay"
+                                    style="background-image: url('https://cf.shopee.vn/file/b107f2e6167adb250100ec4c8d028a57');">
+                                </div>
+                                <div class="product-item__details">
+                                    <div class="product-item__name">
+                                        <span>Apple iPhone 11 64GB</span>
+                                    </div>
+                                    <div class="product-item__hashtag">ShopDacBiet</div>
+                                    <div class="product-item__price-container">
+                                        <div class="product-item__old-price">₫21.990.000</div>
+                                        <div class="product-item__current-price">₫13.990.000</div>
+                                        <div class="free-shipping-icon">
+                                            <svg height="12" viewBox="0 0 20 12" width="20"
+                                                class="shopee-svg-icon icon-free-shipping">
+                                                <g fill="none" fill-rule="evenodd" transform="">
+                                                    <rect fill="#00bfa5" fill-rule="evenodd" height="9" rx="1"
+                                                        width="12" x="4"></rect>
+                                                    <rect height="8" rx="1" stroke="#00bfa5" width="11" x="4.5" y=".5">
+                                                    </rect>
+                                                    <rect fill="#00bfa5" fill-rule="evenodd" height="7" rx="1" width="7"
+                                                        x="13" y="2"></rect>
+                                                    <rect height="6" rx="1" stroke="#00bfa5" width="6" x="13.5" y="2.5">
+                                                    </rect>
+                                                    <circle cx="8" cy="10" fill="#00bfa5" r="2"></circle>
+                                                    <circle cx="15" cy="10" fill="#00bfa5" r="2"></circle>
+                                                    <path
+                                                        d="m6.7082481 6.7999878h-.7082481v-4.2275391h2.8488017v.5976563h-2.1405536v1.2978515h1.9603297v.5800782h-1.9603297zm2.6762505 0v-3.1904297h.6544972v.4892578h.0505892c.0980164-.3134765.4774351-.5419922.9264138-.5419922.0980165 0 .2276512.0087891.3003731.0263672v.6210938c-.053751-.0175782-.2624312-.038086-.3762568-.038086-.5122152 0-.8758247.3017578-.8758247.75v1.8837891zm3.608988-2.7158203c-.5027297 0-.8536919.328125-.8916338.8261719h1.7390022c-.0158092-.5009766-.3446386-.8261719-.8473684-.8261719zm.8442065 1.8544922h.6544972c-.1549293.571289-.7050863.9228515-1.49238.9228515-.9864885 0-1.5903965-.6269531-1.5903965-1.6464843 0-1.0195313.6165553-1.6669922 1.5872347-1.6669922.9580321 0 1.5366455.6064453 1.5366455 1.6083984v.2197266h-2.4314412v.0351562c.0221328.5595703.373095.9140625.9169284.9140625.4110369 0 .6924391-.1376953.8189119-.3867187zm2.6224996-1.8544922c-.5027297 0-.853692.328125-.8916339.8261719h1.7390022c-.0158091-.5009766-.3446386-.8261719-.8473683-.8261719zm.8442064 1.8544922h.6544972c-.1549293.571289-.7050863.9228515-1.49238.9228515-.9864885 0-1.5903965-.6269531-1.5903965-1.6464843 0-1.0195313.6165553-1.6669922 1.5872347-1.6669922.9580321 0 1.5366455.6064453 1.5366455 1.6083984v.2197266h-2.4314412v.0351562c.0221328.5595703.373095.9140625.9169284.9140625.4110369 0 .6924391-.1376953.8189119-.3867187z"
+                                                        fill="#fff"></path>
+                                                    <path d="m .5 8.5h3.5v1h-3.5z" fill="#00bfa5"></path>
+                                                    <path d="m0 10.15674h3.5v1h-3.5z" fill="#00bfa5"></path>
+                                                    <circle cx="8" cy="10" fill="#047565" r="1"></circle>
+                                                    <circle cx="15" cy="10" fill="#047565" r="1"></circle>
+                                                </g>
+                                            </svg>
+                                        </div>
+                                    </div>
+                                    <div class="product-item__status">
+                                        <div class="like-icon">
+                                            <i class="far fa-heart not-like-heart"></i>
+                                            <i class="fas fa-heart liked-heart icon-off"></i>
+                                        </div>
+                                        <div class="rating">
+                                            <i class="fas fa-star golden-star"></i>
+                                            <i class="fas fa-star golden-star"></i>
+                                            <i class="fas fa-star golden-star"></i>
+                                            <i class="fas fa-star golden-star"></i>
+                                            <i class="fas fa-star star "></i>
+                                        </div>
+                                        <div class="selling-items">
+                                            Đã bán <span class="selling-items-quantity">5,1k</span>
+                                        </div>
+                                    </div>
+                                    <span class="product-item__location">TP. Hồ Chí Minh</span>
+                                </div>
+                            </div>
+                            <div class="product-item col-2-10 col">
+                                <div class="item__mall-tag">
+                                    <div class="text-inside"></div>
+                                </div>
+                                <div class="item__sale-tag">
+                                    <span class="sale-percent">36%</span>
+                                    <span class="sale-text">GIẢM</span>
+                                </div>
+                                <div class="product-item__img item__event-overlay"
+                                    style="background-image: url('https://cf.shopee.vn/file/b107f2e6167adb250100ec4c8d028a57');">
+                                </div>
+                                <div class="product-item__details">
+                                    <div class="product-item__name">
+                                        <span>Apple iPhone 11 64GB</span>
+                                    </div>
+                                    <div class="product-item__hashtag">ShopDacBiet</div>
+                                    <div class="product-item__price-container">
+                                        <div class="product-item__old-price">₫21.990.000</div>
+                                        <div class="product-item__current-price">₫13.990.000</div>
+                                        <div class="free-shipping-icon">
+                                            <svg height="12" viewBox="0 0 20 12" width="20"
+                                                class="shopee-svg-icon icon-free-shipping">
+                                                <g fill="none" fill-rule="evenodd" transform="">
+                                                    <rect fill="#00bfa5" fill-rule="evenodd" height="9" rx="1"
+                                                        width="12" x="4"></rect>
+                                                    <rect height="8" rx="1" stroke="#00bfa5" width="11" x="4.5" y=".5">
+                                                    </rect>
+                                                    <rect fill="#00bfa5" fill-rule="evenodd" height="7" rx="1" width="7"
+                                                        x="13" y="2"></rect>
+                                                    <rect height="6" rx="1" stroke="#00bfa5" width="6" x="13.5" y="2.5">
+                                                    </rect>
+                                                    <circle cx="8" cy="10" fill="#00bfa5" r="2"></circle>
+                                                    <circle cx="15" cy="10" fill="#00bfa5" r="2"></circle>
+                                                    <path
+                                                        d="m6.7082481 6.7999878h-.7082481v-4.2275391h2.8488017v.5976563h-2.1405536v1.2978515h1.9603297v.5800782h-1.9603297zm2.6762505 0v-3.1904297h.6544972v.4892578h.0505892c.0980164-.3134765.4774351-.5419922.9264138-.5419922.0980165 0 .2276512.0087891.3003731.0263672v.6210938c-.053751-.0175782-.2624312-.038086-.3762568-.038086-.5122152 0-.8758247.3017578-.8758247.75v1.8837891zm3.608988-2.7158203c-.5027297 0-.8536919.328125-.8916338.8261719h1.7390022c-.0158092-.5009766-.3446386-.8261719-.8473684-.8261719zm.8442065 1.8544922h.6544972c-.1549293.571289-.7050863.9228515-1.49238.9228515-.9864885 0-1.5903965-.6269531-1.5903965-1.6464843 0-1.0195313.6165553-1.6669922 1.5872347-1.6669922.9580321 0 1.5366455.6064453 1.5366455 1.6083984v.2197266h-2.4314412v.0351562c.0221328.5595703.373095.9140625.9169284.9140625.4110369 0 .6924391-.1376953.8189119-.3867187zm2.6224996-1.8544922c-.5027297 0-.853692.328125-.8916339.8261719h1.7390022c-.0158091-.5009766-.3446386-.8261719-.8473683-.8261719zm.8442064 1.8544922h.6544972c-.1549293.571289-.7050863.9228515-1.49238.9228515-.9864885 0-1.5903965-.6269531-1.5903965-1.6464843 0-1.0195313.6165553-1.6669922 1.5872347-1.6669922.9580321 0 1.5366455.6064453 1.5366455 1.6083984v.2197266h-2.4314412v.0351562c.0221328.5595703.373095.9140625.9169284.9140625.4110369 0 .6924391-.1376953.8189119-.3867187z"
+                                                        fill="#fff"></path>
+                                                    <path d="m .5 8.5h3.5v1h-3.5z" fill="#00bfa5"></path>
+                                                    <path d="m0 10.15674h3.5v1h-3.5z" fill="#00bfa5"></path>
+                                                    <circle cx="8" cy="10" fill="#047565" r="1"></circle>
+                                                    <circle cx="15" cy="10" fill="#047565" r="1"></circle>
+                                                </g>
+                                            </svg>
+                                        </div>
+                                    </div>
+                                    <div class="product-item__status">
+                                        <div class="like-icon">
+                                            <i class="far fa-heart not-like-heart"></i>
+                                            <i class="fas fa-heart liked-heart icon-off"></i>
+                                        </div>
+                                        <div class="rating">
+                                            <i class="fas fa-star golden-star"></i>
+                                            <i class="fas fa-star golden-star"></i>
+                                            <i class="fas fa-star golden-star"></i>
+                                            <i class="fas fa-star golden-star"></i>
+                                            <i class="fas fa-star star "></i>
+                                        </div>
+                                        <div class="selling-items">
+                                            Đã bán <span class="selling-items-quantity">5,1k</span>
+                                        </div>
+                                    </div>
+                                    <span class="product-item__location">TP. Hồ Chí Minh</span>
+                                </div>
+                            </div>
+                            <div class="product-item col-2-10 col">
+                                <div class="item__mall-tag">
+                                    <div class="text-inside"></div>
+                                </div>
+                                <div class="item__sale-tag">
+                                    <span class="sale-percent">36%</span>
+                                    <span class="sale-text">GIẢM</span>
+                                </div>
+                                <div class="product-item__img item__event-overlay"
+                                    style="background-image: url('https://cf.shopee.vn/file/b107f2e6167adb250100ec4c8d028a57');">
+                                </div>
+                                <div class="product-item__details">
+                                    <div class="product-item__name">
+                                        <span>Apple iPhone 11 64GB</span>
+                                    </div>
+                                    <div class="product-item__hashtag">ShopDacBiet</div>
+                                    <div class="product-item__price-container">
+                                        <div class="product-item__old-price">₫21.990.000</div>
+                                        <div class="product-item__current-price">₫13.990.000</div>
+                                        <div class="free-shipping-icon">
+                                            <svg height="12" viewBox="0 0 20 12" width="20"
+                                                class="shopee-svg-icon icon-free-shipping">
+                                                <g fill="none" fill-rule="evenodd" transform="">
+                                                    <rect fill="#00bfa5" fill-rule="evenodd" height="9" rx="1"
+                                                        width="12" x="4"></rect>
+                                                    <rect height="8" rx="1" stroke="#00bfa5" width="11" x="4.5" y=".5">
+                                                    </rect>
+                                                    <rect fill="#00bfa5" fill-rule="evenodd" height="7" rx="1" width="7"
+                                                        x="13" y="2"></rect>
+                                                    <rect height="6" rx="1" stroke="#00bfa5" width="6" x="13.5" y="2.5">
+                                                    </rect>
+                                                    <circle cx="8" cy="10" fill="#00bfa5" r="2"></circle>
+                                                    <circle cx="15" cy="10" fill="#00bfa5" r="2"></circle>
+                                                    <path
+                                                        d="m6.7082481 6.7999878h-.7082481v-4.2275391h2.8488017v.5976563h-2.1405536v1.2978515h1.9603297v.5800782h-1.9603297zm2.6762505 0v-3.1904297h.6544972v.4892578h.0505892c.0980164-.3134765.4774351-.5419922.9264138-.5419922.0980165 0 .2276512.0087891.3003731.0263672v.6210938c-.053751-.0175782-.2624312-.038086-.3762568-.038086-.5122152 0-.8758247.3017578-.8758247.75v1.8837891zm3.608988-2.7158203c-.5027297 0-.8536919.328125-.8916338.8261719h1.7390022c-.0158092-.5009766-.3446386-.8261719-.8473684-.8261719zm.8442065 1.8544922h.6544972c-.1549293.571289-.7050863.9228515-1.49238.9228515-.9864885 0-1.5903965-.6269531-1.5903965-1.6464843 0-1.0195313.6165553-1.6669922 1.5872347-1.6669922.9580321 0 1.5366455.6064453 1.5366455 1.6083984v.2197266h-2.4314412v.0351562c.0221328.5595703.373095.9140625.9169284.9140625.4110369 0 .6924391-.1376953.8189119-.3867187zm2.6224996-1.8544922c-.5027297 0-.853692.328125-.8916339.8261719h1.7390022c-.0158091-.5009766-.3446386-.8261719-.8473683-.8261719zm.8442064 1.8544922h.6544972c-.1549293.571289-.7050863.9228515-1.49238.9228515-.9864885 0-1.5903965-.6269531-1.5903965-1.6464843 0-1.0195313.6165553-1.6669922 1.5872347-1.6669922.9580321 0 1.5366455.6064453 1.5366455 1.6083984v.2197266h-2.4314412v.0351562c.0221328.5595703.373095.9140625.9169284.9140625.4110369 0 .6924391-.1376953.8189119-.3867187z"
+                                                        fill="#fff"></path>
+                                                    <path d="m .5 8.5h3.5v1h-3.5z" fill="#00bfa5"></path>
+                                                    <path d="m0 10.15674h3.5v1h-3.5z" fill="#00bfa5"></path>
+                                                    <circle cx="8" cy="10" fill="#047565" r="1"></circle>
+                                                    <circle cx="15" cy="10" fill="#047565" r="1"></circle>
+                                                </g>
+                                            </svg>
+                                        </div>
+                                    </div>
+                                    <div class="product-item__status">
+                                        <div class="like-icon">
+                                            <i class="far fa-heart not-like-heart"></i>
+                                            <i class="fas fa-heart liked-heart icon-off"></i>
+                                        </div>
+                                        <div class="rating">
+                                            <i class="fas fa-star golden-star"></i>
+                                            <i class="fas fa-star golden-star"></i>
+                                            <i class="fas fa-star golden-star"></i>
+                                            <i class="fas fa-star golden-star"></i>
+                                            <i class="fas fa-star star "></i>
+                                        </div>
+                                        <div class="selling-items">
+                                            Đã bán <span class="selling-items-quantity">5,1k</span>
+                                        </div>
+                                    </div>
+                                    <span class="product-item__location">TP. Hồ Chí Minh</span>
+                                </div>
+                            </div>
+                            <div class="product-item col-2-10 col">
+                                <div class="item__mall-tag">
+                                    <div class="text-inside"></div>
+                                </div>
+                                <div class="item__sale-tag">
+                                    <span class="sale-percent">36%</span>
+                                    <span class="sale-text">GIẢM</span>
+                                </div>
+                                <div class="product-item__img item__event-overlay"
+                                    style="background-image: url('https://cf.shopee.vn/file/b107f2e6167adb250100ec4c8d028a57');">
+                                </div>
+                                <div class="product-item__details">
+                                    <div class="product-item__name">
+                                        <span>Apple iPhone 11 64GB</span>
+                                    </div>
+                                    <div class="product-item__hashtag">ShopDacBiet</div>
+                                    <div class="product-item__price-container">
+                                        <div class="product-item__old-price">₫21.990.000</div>
+                                        <div class="product-item__current-price">₫13.990.000</div>
+                                        <div class="free-shipping-icon">
+                                            <svg height="12" viewBox="0 0 20 12" width="20"
+                                                class="shopee-svg-icon icon-free-shipping">
+                                                <g fill="none" fill-rule="evenodd" transform="">
+                                                    <rect fill="#00bfa5" fill-rule="evenodd" height="9" rx="1"
+                                                        width="12" x="4"></rect>
+                                                    <rect height="8" rx="1" stroke="#00bfa5" width="11" x="4.5" y=".5">
+                                                    </rect>
+                                                    <rect fill="#00bfa5" fill-rule="evenodd" height="7" rx="1" width="7"
+                                                        x="13" y="2"></rect>
+                                                    <rect height="6" rx="1" stroke="#00bfa5" width="6" x="13.5" y="2.5">
+                                                    </rect>
+                                                    <circle cx="8" cy="10" fill="#00bfa5" r="2"></circle>
+                                                    <circle cx="15" cy="10" fill="#00bfa5" r="2"></circle>
+                                                    <path
+                                                        d="m6.7082481 6.7999878h-.7082481v-4.2275391h2.8488017v.5976563h-2.1405536v1.2978515h1.9603297v.5800782h-1.9603297zm2.6762505 0v-3.1904297h.6544972v.4892578h.0505892c.0980164-.3134765.4774351-.5419922.9264138-.5419922.0980165 0 .2276512.0087891.3003731.0263672v.6210938c-.053751-.0175782-.2624312-.038086-.3762568-.038086-.5122152 0-.8758247.3017578-.8758247.75v1.8837891zm3.608988-2.7158203c-.5027297 0-.8536919.328125-.8916338.8261719h1.7390022c-.0158092-.5009766-.3446386-.8261719-.8473684-.8261719zm.8442065 1.8544922h.6544972c-.1549293.571289-.7050863.9228515-1.49238.9228515-.9864885 0-1.5903965-.6269531-1.5903965-1.6464843 0-1.0195313.6165553-1.6669922 1.5872347-1.6669922.9580321 0 1.5366455.6064453 1.5366455 1.6083984v.2197266h-2.4314412v.0351562c.0221328.5595703.373095.9140625.9169284.9140625.4110369 0 .6924391-.1376953.8189119-.3867187zm2.6224996-1.8544922c-.5027297 0-.853692.328125-.8916339.8261719h1.7390022c-.0158091-.5009766-.3446386-.8261719-.8473683-.8261719zm.8442064 1.8544922h.6544972c-.1549293.571289-.7050863.9228515-1.49238.9228515-.9864885 0-1.5903965-.6269531-1.5903965-1.6464843 0-1.0195313.6165553-1.6669922 1.5872347-1.6669922.9580321 0 1.5366455.6064453 1.5366455 1.6083984v.2197266h-2.4314412v.0351562c.0221328.5595703.373095.9140625.9169284.9140625.4110369 0 .6924391-.1376953.8189119-.3867187z"
+                                                        fill="#fff"></path>
+                                                    <path d="m .5 8.5h3.5v1h-3.5z" fill="#00bfa5"></path>
+                                                    <path d="m0 10.15674h3.5v1h-3.5z" fill="#00bfa5"></path>
+                                                    <circle cx="8" cy="10" fill="#047565" r="1"></circle>
+                                                    <circle cx="15" cy="10" fill="#047565" r="1"></circle>
+                                                </g>
+                                            </svg>
+                                        </div>
+                                    </div>
+                                    <div class="product-item__status">
+                                        <div class="like-icon">
+                                            <i class="far fa-heart not-like-heart"></i>
+                                            <i class="fas fa-heart liked-heart icon-off"></i>
+                                        </div>
+                                        <div class="rating">
+                                            <i class="fas fa-star golden-star"></i>
+                                            <i class="fas fa-star golden-star"></i>
+                                            <i class="fas fa-star golden-star"></i>
+                                            <i class="fas fa-star golden-star"></i>
+                                            <i class="fas fa-star star "></i>
+                                        </div>
+                                        <div class="selling-items">
+                                            Đã bán <span class="selling-items-quantity">5,1k</span>
+                                        </div>
+                                    </div>
+                                    <span class="product-item__location">TP. Hồ Chí Minh</span>
+                                </div>
+                            </div>
+                            <div class="product-item col-2-10 col">
+                                <div class="item__mall-tag">
+                                    <div class="text-inside"></div>
+                                </div>
+                                <div class="item__sale-tag">
+                                    <span class="sale-percent">36%</span>
+                                    <span class="sale-text">GIẢM</span>
+                                </div>
+                                <div class="product-item__img item__event-overlay"
+                                    style="background-image: url('https://cf.shopee.vn/file/b107f2e6167adb250100ec4c8d028a57');">
+                                </div>
+                                <div class="product-item__details">
+                                    <div class="product-item__name">
+                                        <span>Apple iPhone 11 64GB</span>
+                                    </div>
+                                    <div class="product-item__hashtag">ShopDacBiet</div>
+                                    <div class="product-item__price-container">
+                                        <div class="product-item__old-price">₫21.990.000</div>
+                                        <div class="product-item__current-price">₫13.990.000</div>
+                                        <div class="free-shipping-icon">
+                                            <svg height="12" viewBox="0 0 20 12" width="20"
+                                                class="shopee-svg-icon icon-free-shipping">
+                                                <g fill="none" fill-rule="evenodd" transform="">
+                                                    <rect fill="#00bfa5" fill-rule="evenodd" height="9" rx="1"
+                                                        width="12" x="4"></rect>
+                                                    <rect height="8" rx="1" stroke="#00bfa5" width="11" x="4.5" y=".5">
+                                                    </rect>
+                                                    <rect fill="#00bfa5" fill-rule="evenodd" height="7" rx="1" width="7"
+                                                        x="13" y="2"></rect>
+                                                    <rect height="6" rx="1" stroke="#00bfa5" width="6" x="13.5" y="2.5">
+                                                    </rect>
+                                                    <circle cx="8" cy="10" fill="#00bfa5" r="2"></circle>
+                                                    <circle cx="15" cy="10" fill="#00bfa5" r="2"></circle>
+                                                    <path
+                                                        d="m6.7082481 6.7999878h-.7082481v-4.2275391h2.8488017v.5976563h-2.1405536v1.2978515h1.9603297v.5800782h-1.9603297zm2.6762505 0v-3.1904297h.6544972v.4892578h.0505892c.0980164-.3134765.4774351-.5419922.9264138-.5419922.0980165 0 .2276512.0087891.3003731.0263672v.6210938c-.053751-.0175782-.2624312-.038086-.3762568-.038086-.5122152 0-.8758247.3017578-.8758247.75v1.8837891zm3.608988-2.7158203c-.5027297 0-.8536919.328125-.8916338.8261719h1.7390022c-.0158092-.5009766-.3446386-.8261719-.8473684-.8261719zm.8442065 1.8544922h.6544972c-.1549293.571289-.7050863.9228515-1.49238.9228515-.9864885 0-1.5903965-.6269531-1.5903965-1.6464843 0-1.0195313.6165553-1.6669922 1.5872347-1.6669922.9580321 0 1.5366455.6064453 1.5366455 1.6083984v.2197266h-2.4314412v.0351562c.0221328.5595703.373095.9140625.9169284.9140625.4110369 0 .6924391-.1376953.8189119-.3867187zm2.6224996-1.8544922c-.5027297 0-.853692.328125-.8916339.8261719h1.7390022c-.0158091-.5009766-.3446386-.8261719-.8473683-.8261719zm.8442064 1.8544922h.6544972c-.1549293.571289-.7050863.9228515-1.49238.9228515-.9864885 0-1.5903965-.6269531-1.5903965-1.6464843 0-1.0195313.6165553-1.6669922 1.5872347-1.6669922.9580321 0 1.5366455.6064453 1.5366455 1.6083984v.2197266h-2.4314412v.0351562c.0221328.5595703.373095.9140625.9169284.9140625.4110369 0 .6924391-.1376953.8189119-.3867187z"
+                                                        fill="#fff"></path>
+                                                    <path d="m .5 8.5h3.5v1h-3.5z" fill="#00bfa5"></path>
+                                                    <path d="m0 10.15674h3.5v1h-3.5z" fill="#00bfa5"></path>
+                                                    <circle cx="8" cy="10" fill="#047565" r="1"></circle>
+                                                    <circle cx="15" cy="10" fill="#047565" r="1"></circle>
+                                                </g>
+                                            </svg>
+                                        </div>
+                                    </div>
+                                    <div class="product-item__status">
+                                        <div class="like-icon">
+                                            <i class="far fa-heart not-like-heart"></i>
+                                            <i class="fas fa-heart liked-heart icon-off"></i>
+                                        </div>
+                                        <div class="rating">
+                                            <i class="fas fa-star golden-star"></i>
+                                            <i class="fas fa-star golden-star"></i>
+                                            <i class="fas fa-star golden-star"></i>
+                                            <i class="fas fa-star golden-star"></i>
+                                            <i class="fas fa-star star "></i>
+                                        </div>
+                                        <div class="selling-items">
+                                            Đã bán <span class="selling-items-quantity">5,1k</span>
+                                        </div>
+                                    </div>
+                                    <span class="product-item__location">TP. Hồ Chí Minh</span>
+                                </div>
+                            </div>
+                            <div class="product-item col-2-10 col">
+                                <div class="item__mall-tag">
+                                    <div class="text-inside"></div>
+                                </div>
+                                <div class="item__sale-tag">
+                                    <span class="sale-percent">36%</span>
+                                    <span class="sale-text">GIẢM</span>
+                                </div>
+                                <div class="product-item__img item__event-overlay"
+                                    style="background-image: url('https://cf.shopee.vn/file/b107f2e6167adb250100ec4c8d028a57');">
+                                </div>
+                                <div class="product-item__details">
+                                    <div class="product-item__name">
+                                        <span>Apple iPhone 11 64GB</span>
+                                    </div>
+                                    <div class="product-item__hashtag">ShopDacBiet</div>
+                                    <div class="product-item__price-container">
+                                        <div class="product-item__old-price">₫21.990.000</div>
+                                        <div class="product-item__current-price">₫13.990.000</div>
+                                        <div class="free-shipping-icon">
+                                            <svg height="12" viewBox="0 0 20 12" width="20"
+                                                class="shopee-svg-icon icon-free-shipping">
+                                                <g fill="none" fill-rule="evenodd" transform="">
+                                                    <rect fill="#00bfa5" fill-rule="evenodd" height="9" rx="1"
+                                                        width="12" x="4"></rect>
+                                                    <rect height="8" rx="1" stroke="#00bfa5" width="11" x="4.5" y=".5">
+                                                    </rect>
+                                                    <rect fill="#00bfa5" fill-rule="evenodd" height="7" rx="1" width="7"
+                                                        x="13" y="2"></rect>
+                                                    <rect height="6" rx="1" stroke="#00bfa5" width="6" x="13.5" y="2.5">
+                                                    </rect>
+                                                    <circle cx="8" cy="10" fill="#00bfa5" r="2"></circle>
+                                                    <circle cx="15" cy="10" fill="#00bfa5" r="2"></circle>
+                                                    <path
+                                                        d="m6.7082481 6.7999878h-.7082481v-4.2275391h2.8488017v.5976563h-2.1405536v1.2978515h1.9603297v.5800782h-1.9603297zm2.6762505 0v-3.1904297h.6544972v.4892578h.0505892c.0980164-.3134765.4774351-.5419922.9264138-.5419922.0980165 0 .2276512.0087891.3003731.0263672v.6210938c-.053751-.0175782-.2624312-.038086-.3762568-.038086-.5122152 0-.8758247.3017578-.8758247.75v1.8837891zm3.608988-2.7158203c-.5027297 0-.8536919.328125-.8916338.8261719h1.7390022c-.0158092-.5009766-.3446386-.8261719-.8473684-.8261719zm.8442065 1.8544922h.6544972c-.1549293.571289-.7050863.9228515-1.49238.9228515-.9864885 0-1.5903965-.6269531-1.5903965-1.6464843 0-1.0195313.6165553-1.6669922 1.5872347-1.6669922.9580321 0 1.5366455.6064453 1.5366455 1.6083984v.2197266h-2.4314412v.0351562c.0221328.5595703.373095.9140625.9169284.9140625.4110369 0 .6924391-.1376953.8189119-.3867187zm2.6224996-1.8544922c-.5027297 0-.853692.328125-.8916339.8261719h1.7390022c-.0158091-.5009766-.3446386-.8261719-.8473683-.8261719zm.8442064 1.8544922h.6544972c-.1549293.571289-.7050863.9228515-1.49238.9228515-.9864885 0-1.5903965-.6269531-1.5903965-1.6464843 0-1.0195313.6165553-1.6669922 1.5872347-1.6669922.9580321 0 1.5366455.6064453 1.5366455 1.6083984v.2197266h-2.4314412v.0351562c.0221328.5595703.373095.9140625.9169284.9140625.4110369 0 .6924391-.1376953.8189119-.3867187z"
+                                                        fill="#fff"></path>
+                                                    <path d="m .5 8.5h3.5v1h-3.5z" fill="#00bfa5"></path>
+                                                    <path d="m0 10.15674h3.5v1h-3.5z" fill="#00bfa5"></path>
+                                                    <circle cx="8" cy="10" fill="#047565" r="1"></circle>
+                                                    <circle cx="15" cy="10" fill="#047565" r="1"></circle>
+                                                </g>
+                                            </svg>
+                                        </div>
+                                    </div>
+                                    <div class="product-item__status">
+                                        <div class="like-icon">
+                                            <i class="far fa-heart not-like-heart"></i>
+                                            <i class="fas fa-heart liked-heart icon-off"></i>
+                                        </div>
+                                        <div class="rating">
+                                            <i class="fas fa-star golden-star"></i>
+                                            <i class="fas fa-star golden-star"></i>
+                                            <i class="fas fa-star golden-star"></i>
+                                            <i class="fas fa-star golden-star"></i>
+                                            <i class="fas fa-star star "></i>
+                                        </div>
+                                        <div class="selling-items">
+                                            Đã bán <span class="selling-items-quantity">5,1k</span>
+                                        </div>
+                                    </div>
+                                    <span class="product-item__location">TP. Hồ Chí Minh</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="main-pagination">
+                        <a href="#" class="main-pagination__button">
+                            <i class="fal fa-chevron-left"></i>
+                        </a>
+                        <a href="#" class="main-pagination__button active">1</a>
+                        <a href="#" class="main-pagination__button">2</a>
+                        <a href="#" class="main-pagination__button">
+                            <i class="fal fa-chevron-right"></i>
+                        </a>
                     </div>
                 </div>
             </div>
-            <footer class="footer"></footer>
         </div>
-    </body>
+        <footer class="footer"></footer>
+    </div>
+</body>
+
 </html>
